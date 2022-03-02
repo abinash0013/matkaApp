@@ -36,7 +36,7 @@
                                     <div class="ml-auto">
                                         <a href="./add.php">
                                             <button
-                                                class="btn btn-primary btn-round "
+                                                class="btn btn-primary btn-rounded"
                                             >
                                                 <i class="fa fa-plus"></i>
                                                 Add

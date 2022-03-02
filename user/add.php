@@ -33,7 +33,7 @@
                                 <div class="card-title">User Add Form</div>
                                 <div class="ml-auto">
                                     <a href="./index.php">
-                                        <button class="btn btn-primary btn-round ">
+                                        <button class="btn btn-primary btn-rounded">
                                             <i class="fa fa-arrow-left"></i>
                                             Back
                                         </button>
@@ -88,7 +88,7 @@
                                         </textarea>
                                     </div>                                    
                                     <div class="form-group">
-                                        <button class="btn btn-success">Submit</button>
+                                        <button class="btn btn-success btn-rounded">Submit</button>
                                     </div>
                                 </div>
                             </div>

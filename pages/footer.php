@@ -93,13 +93,13 @@
 <script src="./../js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
 <!-- Chart JS -->
-<script src="./../js/plugin/chart.js/chart.min.js"></script>
+<!-- <script src="./../js/plugin/chart.js/chart.min.js"></script> -->
 
 <!-- jQuery Sparkline -->
 <script src="./../js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
 <!-- Chart Circle -->
-<script src="./../js/plugin/chart-circle/circles.min.js"></script>
+<!-- <script src="./../js/plugin/chart-circle/circles.min.js"></script> -->
 
 <!-- Bootstrap Notify -->
 <script src="./../js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
@@ -164,44 +164,44 @@
 			'<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
 		
 		
-		var totalIncomeChart = document.getElementById('totalIncomeChart').getContext('2d');
+		// var totalIncomeChart = document.getElementById('totalIncomeChart').getContext('2d');
 
-		var mytotalIncomeChart = new Chart(totalIncomeChart, {
-			type: 'bar',
-			data: {
-				labels: ["S", "M", "T", "W", "T", "F", "S", "S", "M", "T"],
-				datasets : [{
-					label: "Total Income",
-					backgroundColor: '#ff9e27',
-					borderColor: 'rgb(23, 125, 255)',
-					data: [6, 4, 9, 5, 4, 6, 4, 3, 8, 10],
-				}],
-			},
-			options: {
-				responsive: true,
-				maintainAspectRatio: false,
-				legend: {
-					display: false,
-				},
-				scales: {
-					yAxes: [{
-						ticks: {
-							display: false //this will remove only the label
-						},
-						gridLines : {
-							drawBorder: false,
-							display : false
-						}
-					}],
-					xAxes : [ {
-						gridLines : {
-							drawBorder: false,
-							display : false
-						}
-					}]
-				},
-			}
-		});
+		// var mytotalIncomeChart = new Chart(totalIncomeChart, {
+		// 	type: 'bar',
+		// 	data: {
+		// 		labels: ["S", "M", "T", "W", "T", "F", "S", "S", "M", "T"],
+		// 		datasets : [{
+		// 			label: "Total Income",
+		// 			backgroundColor: '#ff9e27',
+		// 			borderColor: 'rgb(23, 125, 255)',
+		// 			data: [6, 4, 9, 5, 4, 6, 4, 3, 8, 10],
+		// 		}],
+		// 	},
+		// 	options: {
+		// 		responsive: true,
+		// 		maintainAspectRatio: false,
+		// 		legend: {
+		// 			display: false,
+		// 		},
+		// 		scales: {
+		// 			yAxes: [{
+		// 				ticks: {
+		// 					display: false //this will remove only the label
+		// 				},
+		// 				gridLines : {
+		// 					drawBorder: false,
+		// 					display : false
+		// 				}
+		// 			}],
+		// 			xAxes : [ {
+		// 				gridLines : {
+		// 					drawBorder: false,
+		// 					display : false
+		// 				}
+		// 			}]
+		// 		},
+		// 	}
+		// });
 
 	});
 </script>

@@ -48,7 +48,7 @@
                 <li class="nav-item">
                     <a href="./../user/index.php">
                         <i class="fas fa-layer-group"></i>
-                        <p>User Management</p>
+                        <p>User</p>
                     </a>
                 </li>
             </ul>

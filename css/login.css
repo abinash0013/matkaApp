@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    --background-color: #1f283e;
+    --main-color: #ff9800;
+    --main-color-hover: #ffa620;
+    --grey-color: #c4c4c4;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --google-color: #ff0000;
+    --facebook-color: #0029ff;
+}
+html,
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+.body {
+    background-color: var(--white-color);
+    width: 20%;
+    height: auto;
+    padding: 30px 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0px 9px 20px rgb(0 0 0 / 15%);
+}
+.body h1 {
+    padding-bottom: 30px;
+    color: var(--main-color);
+}
+.form-control {
+    border: 1px solid var(--main-color);
+    border-radius: 3px;
+    color: var(--black-color);
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    height: 35px;
+    padding: 0.7rem;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 100%;
+    border: 1px solid var(--main-color);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: var(--main-color-hover);
+}
+.btn,
+.social-btn-google,
+.social-btn-facebook,
+.form-control:focus {
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+input::placeholder {
+    color: var(--grey-color);
+    opacity: 0.9;
+    font-family: "Lato", sans-serif;
+    /* letter-spacing: 1px; */
+}
+.login-with p {
+    font-size: 13px;
+    position: relative;
+    color: var(--grey-color);
+}
+.login-with p::before {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    z-index: -1;
+    border-radius: 100%;
+    background: var(--grey-color);
+    transform: translateX(-50%);
+}
+.login-with p::after {
+    content: "Or Login with";
+    background-color: var(--white-color);
+    z-index: 1;
+    padding: 1px 7px;
+}
+.social-btn-google {
+    background-color: transparent;
+    border: 1px solid var(--google-color);
+    color: var(--google-color);
+    height: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.social-btn-google:hover {
+    background-color: var(--google-color);
+    color: var(--white-color);
+}
+.social-btn-facebook {
+    background-color: transparent;
+    color: var(--facebook-color);
+    height: 40px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    border: 1px solid var(--facebook-color);
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+.social-btn-facebook:hover {
+    background-color: var(--facebook-color);
+    color: var(--white-color);
+}
+.forgot-password p {
+    font-size: 10px;
+    position: relative;
+    color: var(--grey-color);
+}
+.forgot-password p::after {
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    left: 50%;
+    background: var(--grey-color);
+    padding: 1px;
+    width: 100px;
+    border-radius: 100%;
+    transform: translateX(-50%);
+}
+
+/* ::::::::::::::::::::::::::::::::: media query for tab and mobile start */
+@media (max-width: 950px) {
+    .body {
+        width: 30%;
+    }
+}
+@media (max-width: 650px) {
+    .body {
+        width: 50%;
+    }
+}
+@media (max-width: 380px) {
+    .body {
+        width: 70%;
+    }
+}

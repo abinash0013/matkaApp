@@ -291,7 +291,7 @@ body[data-background-color="dark"] .demo-icon .icon-class {
     transition: all ease 0.5s;
 }
 .dt-buttons button:hover {
-    background: #007bff;
+    background: #ff9800;
     color: #fff;
 }
 /* datatable custom style end */

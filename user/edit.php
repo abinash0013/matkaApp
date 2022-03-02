@@ -33,7 +33,7 @@
                                 <div class="card-title">User Add Form</div>
                                 <div class="ml-auto">
                                     <a href="./index.php">
-                                        <button class="btn btn-primary btn-round ">
+                                        <button class="btn btn-primary">
                                             <i class="fa fa-arrow-left"></i>
                                             Back
                                         </button>
